@@ -189,10 +189,9 @@ def initUsers():
     """Tester data for table"""
     u1 = User(nameOfStudent='Sean Y', nameOfClass='APCSP', nameOfHomework='Make A Table', dateDue='1/22/23')
     u2 = User(nameOfStudent='Ellie P', nameOfClass='AP Bio', nameOfHomework='Portfolio', dateDue='1/23/23')
-    u3 = User(nameOfStudent='Kaylee H', nameOfClass='APCSP', nameOfHomework='API', dateDue='1/25/23')
     u4 = User(nameOfStudent='Theo H', nameOfClass='AP Calc', nameOfHomework='Pg 123, #1, 2, 3', dateDue='1/20/23')
 
-    users = [u1, u2, u3, u4]
+    users = [u1, u2, u4]
 
     """Builds sample user/note(s) data"""
     for user in users:
